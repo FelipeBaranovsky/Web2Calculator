@@ -1,0 +1,95 @@
+body{
+    background-color: bisque;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: #2F3337;
+    margin-bottom: 60px;
+}
+
+.table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-color: black;
+    border-width: 5px;
+    font-weight: bold;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select:none;
+}
+
+td{
+    text-align: center;
+    font-weight: bold;
+    border: 5px solid #000;
+    font-size : 40px;
+    width: 300px;
+    height: 90px;
+}
+
+.Clearcell{
+    background-color: #FF9FA8;
+}
+
+.Clearcell:hover{
+    background-color: #ff9fa986;
+    cursor: pointer;
+}
+
+.Screencell{
+    pointer-events: none;
+    background-color: #e5f76f;
+    width: 900px;
+}
+
+.Numcell{
+    background-color: #2F3337;
+}
+
+.Numcell:hover{
+    background-color: #2f33376e;
+    cursor: pointer;
+}
+
+.EQcell{
+    background-color: #b5ca2c;
+}
+
+.EQcell:hover{
+    background-color: #b5ca2c3f;
+    cursor: pointer;
+}
+
+.Delcell{
+    background-color: #cc6973;
+}
+
+.Delcell:hover{
+    background-color: #cc697359;
+}
+
+
+
+.screen{
+    width : 900px; 
+    font-size : 50px;
+    background-color: #e5f76f;
+    border-color: transparent;  
+    
+    
+    /*direction: rtl;
+        Al reves los numeros*/
+}
+
+.num{
+    color: white;
+}
+
+.eq{
+    color:#000
+}
